@@ -1,73 +1,101 @@
-# React + TypeScript + Vite
+Bilkul bhai 💪🔥
+Yeh raha FULLY READY professional README.md — tere live link aur GitHub repo ke saath already updated.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tu bas pura copy kar ke apne README.md file me paste kar de ✅
 
-Currently, two official plugins are available:
+🎬 Netflix Style Video Player
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern Netflix-inspired video streaming web application built using React, TypeScript, and Vite.
+This project demonstrates dynamic routing, custom video controls, and an immersive user experience similar to OTT platforms.
 
-## React Compiler
+🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://netflix-style-video-player.vercel.app/
 
-## Expanding the ESLint configuration
+📂 GitHub Repository
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔗 https://github.com/badalyadav001/netflix-style-video-player
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+📺 Categorized video listing (Dynamic rendering)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🔗 Dynamic routing using React Router (/video/:slug)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+▶ Custom video controls (Play / Pause)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📊 Clickable progress bar
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+⛶ Fullscreen support
+
+👀 Auto-hide controls (Netflix-style UX)
+
+🔙 Back navigation functionality
+
+🎨 Cinematic full-screen video layout
+
+⚡ Fast build setup using Vite
+
+🛠 Tech Stack
+
+React
+
+TypeScript
+
+Vite
+
+React Router DOM
+
+HTML5 Video API
+
+CSS (Inline styling for layout control)
+
+📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the repository
+git clone https://github.com/badalyadav001/netflix-style-video-player.git
+
+2️⃣ Navigate to project folder
+cd netflix-style-video-player
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Start development server
+npm run dev
+
+
+The app will run on:
+
+http://localhost:5173/
+
+📁 Project Structure
+src/
+ ├── pages/
+ │    ├── Home.tsx
+ │    └── VideoPlayer.tsx
+ ├── data/
+ │    └── videos.ts
+ ├── App.tsx
+ ├── main.tsx
+ └── index.css
+
+🎯 Key Functional Highlights
+
+Implemented dynamic video rendering using structured data.
+
+Used React Router for clean and scalable navigation.
+
+Built fully custom video controls instead of default browser controls.
+
+Designed immersive full-screen layout with overlay controls.
+
+Implemented auto-hide controls using mouse activity detection.
+
+👨‍💻 Author
+
+Badal Yadav
+Frontend Developer
+GitHub: https://github.com/badalyadav001
