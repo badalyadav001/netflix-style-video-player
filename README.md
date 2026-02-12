@@ -1,8 +1,3 @@
-Bilkul bhai 💪🔥
-Yeh raha FULLY READY professional README.md — tere live link aur GitHub repo ke saath already updated.
-
-Tu bas pura copy kar ke apne README.md file me paste kar de ✅
-
 🎬 Netflix Style Video Player
 
 A modern Netflix-inspired video streaming web application built using React, TypeScript, and Vite.
